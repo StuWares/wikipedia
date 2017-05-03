@@ -1,0 +1,24 @@
+/* Pallette:
+	#000000 - Black
+	#363946 - Onyx
+	#0b4f6c - Dark Imperial Blue
+	#d6c9c9 - Dust Storm
+	#e8eef2 - Glitter
+*/
+
+body {
+	background-color: #363946;
+}
+
+a {
+	color: #d6c9c9;
+}
+
+a:hover {
+	color: #e8eef2;
+}
+
+
+#inner-box {
+	background-color: #0b4f6c;
+}
