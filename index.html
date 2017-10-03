@@ -10,10 +10,7 @@
 <!-- Base CSS -->
 <link rel="stylesheet" type="text/css" href="styles/style.css">
 
-<!-- jQuery 3.2.1 -->
-<script type="text/javascript" src="scripts/jqery-3.2.1.js"></script>
-
-<!-- mobile responsive meta, copied directly from bootstrap 4 docs -->
+<!-- mobile responsive meta, as per bootstrap 4 docs -->
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 </head>
@@ -35,11 +32,13 @@
 			<br>
 
 			<div id="search-bar">
-				<form id="search-form">
-					<input type="text" name="search">
+				
+					<input type="text" name="search" id="search-input">
+					<!--
 					<button type="submit" class="btn btn-outline-info" id="search-button">Search!</button>
-
-				</form>
+					-->
+					<button class="btn btn-outline-info" id="search-button">Search!</button>
+				
 			
 			</div>
 
@@ -54,6 +53,8 @@
 	
 
 
-
+	<!-- jQuery 3.2.1 -->
+	<script type="text/javascript" src="scripts/jquery-3.2.1.js"></script>
+	<!-- base js -->
 	<script type="text/javascript" src="scripts/scripts.js"></script>
 </body>
