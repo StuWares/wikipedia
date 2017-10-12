@@ -2,9 +2,11 @@
 
 $(document).ready(function(){
 
+
 	$("#search-button").on("click", function(){
 
 		var searchTerm = $("#search-input").val();
+		// TODO convert user input to an array
 
 		$.ajax({
 			type: "GET",
